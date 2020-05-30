@@ -14039,7 +14039,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14066,6 +14066,7 @@ out = output[:, -1]</code></pre>
     <span class="c1"># saving the trained model</span>
     <span class="n">helper</span><span class="o">.</span><span class="n">save_model</span><span class="p">(</span><span class="s1">&#39;./save/trained_rnn&#39;</span><span class="p">,</span> <span class="n">trained_rnn</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Model Trained and Saved&#39;</span><span class="p">)</span>
+      
 </pre></div>
 
     </div>
@@ -14082,21 +14083,19 @@ out = output[:, -1]</code></pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Training for 25 epoch(s)...
-
-Epoch:    1/25    Loss: 5.804309679031372  
+<pre>Epoch:    1/25    Loss: 5.804309679031372  
 
 Epoch:    1/25    Loss: 5.140595675468445 
 
 Epoch:    1/25    Loss: 4.953876204490662 
 
-Epoch:    1/25    Loss: 4.762756108283996
+Epoch:    1/25    Loss: 4.762756108283996 
 
-Epoch:    1/25    Loss: 4.700595675468445 
+Epoch:    1/25    Loss: 4.669049787521362 
 
-Epoch:    1/25    Loss: 4.640595675468445 
+Epoch:    1/25    Loss: 4.6417726340293886 
 
-Epoch:    1/25    Loss: 4.580595675468445 
+Epoch:    1/25    Loss: 4.5424367861747745 
 
 Epoch:    1/25    Loss: 4.52530392742157 
 
@@ -14618,7 +14617,7 @@ Epoch:   16/25    Loss: 3.651363413333893
 
 Epoch:   16/25    Loss: 3.628433818817139
 
-0Epoch:   16/25    Loss: 3.6641632876396177
+Epoch:   16/25    Loss: 3.6641632876396177
 
 Epoch:   16/25    Loss: 3.672635169506073
 
@@ -14930,31 +14929,9 @@ Epoch:   25/25    Loss: 3.469444426059723
 
 Epoch:   25/25    Loss: 3.480022254943848
 
-Epoch:   25/25    Loss: 3.4636580901145933 
+Epoch:   25/25    Loss: 3.4636580901145933
 
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/opt/conda/lib/python3.6/site-packages/torch/serialization.py:193: UserWarning: Couldn&#39;t retrieve source code for container of type RNN. It won&#39;t be checked for correctness upon loading.
-  &#34;type &#34; + obj.__name__ + &#34;. It won&#39;t be checked &#34;
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Model Trained and Saved
+Model Trained and Saved
 </pre>
 </div>
 </div>
